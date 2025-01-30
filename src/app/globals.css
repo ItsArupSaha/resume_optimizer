@@ -51,6 +51,10 @@ section {
   scroll-margin-top: 6rem; /* Match header height */
 }
 
+.swiper-pagination {
+  display: none;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -49,7 +49,7 @@ export const Footer = () => {
                 icon={<TwitterIcon className="w-5 h-5" />}
               />
               <SocialIcon
-                href="https://github.com"
+                href="https://github.com/ItsArupSaha/resume_optimizer"
                 icon={<Github className="w-5 h-5" />}
               />
             </div>
