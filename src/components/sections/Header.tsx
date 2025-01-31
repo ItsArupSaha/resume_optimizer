@@ -57,7 +57,11 @@ export const Header = () => {
             {isSignedIn ? (
               <UserButton afterSignOutUrl="/" />
             ) : (
-              <Button asChild variant="outline">
+              <Button
+                asChild
+                className="gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
+                variant="outline"
+              >
                 <Link href="/sign-in">Sign In</Link>
               </Button>
             )}

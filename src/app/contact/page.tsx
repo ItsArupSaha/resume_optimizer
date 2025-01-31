@@ -60,7 +60,10 @@ export default function ContactPage() {
                   required
                 ></textarea>
               </div>
-              <Button type="submit" className="w-full">
+              <Button
+                className="w-full gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
+                type="submit"
+              >
                 Send Message
               </Button>
             </form>

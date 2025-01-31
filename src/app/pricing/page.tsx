@@ -42,7 +42,7 @@ export default function PricingPage() {
               </p>
             </div>
             <Button asChild className="w-full mb-6">
-              <Link href="/sign-up">Start 7-Day Trial</Link>
+              <Link href="/sign-in">Start 7-Day Trial</Link>
             </Button>
             <FeatureList
               features={[
@@ -78,7 +78,7 @@ export default function PricingPage() {
               asChild
               className="w-full mb-6 bg-gradient-to-r from-blue-600 to-purple-600 text-white"
             >
-              <Link href="/sign-up">Start 14-Day Trial</Link>
+              <Link href="/sign-in">Start 14-Day Trial</Link>
             </Button>
             <FeatureList
               features={[
@@ -108,7 +108,7 @@ export default function PricingPage() {
               </p>
             </div>
             <Button asChild variant="outline" className="w-full mb-6">
-              <Link href="/sign-up">One-Time Payment</Link>
+              <Link href="/sign-in">One-Time Payment</Link>
             </Button>
             <FeatureList
               features={[
